@@ -47,19 +47,19 @@ public void draw(){
 }
 
 public void keyPressed() {
-  if(key == 's'){
+  if(key == 'p'){
     running = !running;
   }
-  if(key == 'n'){
+  if(key == 's'){
     frameRate(3);
   }
-  if(key == 'w'){
+  if(key == 'a'){
     frameRate(1);
   }
-  if(key == 't'){
+  if(key == 'd'){
     frameRate(20);
   }
-  if(key == 'v'){
+  if(key == 'w'){
     frameRate(hi ++);
   }
 }
