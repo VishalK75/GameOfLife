@@ -6,8 +6,8 @@ private boolean[][] buffer;
 private boolean running = true;
 
 public void setup(){
-  size(2500, 2500);
-  frameRate(6);
+  size(700, 700);
+  frameRate(3);
   Interactive.make(this);
   buttons = new Life[NUM_ROWS][NUM_COLS];
   for(int i = 0; i < NUM_ROWS; i++){
@@ -50,13 +50,13 @@ public void keyPressed() {
     running = !running;
   }
   if(key == 'n'){
-    frameRate(6);
+    frameRate(3);
   }
   if(key == 'w'){
-    frameRate(2);
+    frameRate(1);
   }
   if(key == 't'){
-    frameRate(70);
+    frameRate(20);
   }
 }
 
