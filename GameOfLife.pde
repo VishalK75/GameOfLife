@@ -7,7 +7,7 @@ private boolean running = true;
 public int hi = 3;
 
 public void setup(){
-  size(700, 700);
+  size(1000, 1000);
   frameRate(3);
   Interactive.make(this);
   buttons = new Life[NUM_ROWS][NUM_COLS];
@@ -121,8 +121,8 @@ public class Life{
   private float x, y, width, height;
   private boolean alive;
   public Life (int row, int col){
-    width = 2500/NUM_COLS;
-    height = 2500/NUM_ROWS;
+    width = 1000/NUM_COLS;
+    height = 1000/NUM_ROWS;
     myRow = row;
     myCol = col; 
     x = myCol*width;
