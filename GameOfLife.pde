@@ -1,6 +1,6 @@
 import de.bezier.guido.*;
-public final static int NUM_ROWS = 20;
-public final static int NUM_COLS = 20;
+public final static int NUM_ROWS = 50;
+public final static int NUM_COLS = 50;
 private Life[][] buttons;
 private boolean[][] buffer;
 private boolean running = true;
@@ -117,8 +117,8 @@ public class Life{
   private float x, y, width, height;
   private boolean alive;
   public Life (int row, int col){
-    width = 400/NUM_COLS;
-    height = 400/NUM_ROWS;
+    width = 2500/NUM_COLS;
+    height = 2500/NUM_ROWS;
     myRow = row;
     myCol = col; 
     x = myCol*width;
