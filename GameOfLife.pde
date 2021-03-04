@@ -4,6 +4,7 @@ public final static int NUM_COLS = 50;
 private Life[][] buttons;
 private boolean[][] buffer;
 private boolean running = true;
+public int hi = 3;
 
 public void setup(){
   size(700, 700);
@@ -57,6 +58,9 @@ public void keyPressed() {
   }
   if(key == 't'){
     frameRate(20);
+  }
+  if(key == 'v'){
+    frameRate(hi ++);
   }
 }
 
