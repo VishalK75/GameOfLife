@@ -48,13 +48,8 @@ public void draw(){
 
 public void keyPressed() {
   if(key == 'p'){
-   for(int i = 0; i < NUM_ROWS; i++){
-    for(int j = 0; j < NUM_COLS; j++){
-      buttons[i][j].setLife(false);
-    }
-   }
-  running = false;
-  
+    running = !running;
+  }
   if(key == 's'){
     frameRate(3);
   }
