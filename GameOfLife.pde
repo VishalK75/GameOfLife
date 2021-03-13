@@ -47,7 +47,7 @@ public void draw(){
 }
 
 public void keyPressed() {
-  if(key == 'p'){
+  if(key == 'm'){
     running = !running;
   }
   if(key == 's'){
